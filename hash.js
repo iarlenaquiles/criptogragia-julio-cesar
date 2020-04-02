@@ -71,4 +71,4 @@ exports.cesarDecrypt = (text, step) =>
   text
     .split("")
     .map(letter => decrypterLetter(letter, step))
-    .join();
+    .join("");
